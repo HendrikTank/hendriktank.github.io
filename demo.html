@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tanoa</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://mapdata-gerrng.github.io/Arma3Map/css/mapUtils.css" />
+    <link rel="stylesheet" href="https://hendriktank.github.io/Arma3Map/css/mapUtils.css" />
 </head>
 <body style=" margin:0;padding:0;border:0;">
     <div class="map" id="map" style="width:100%; height:100vh; margin:0;padding:0;border:0;">
@@ -28,7 +28,7 @@ function InitMap(mapInfos) {
         });
 
         // Define tile layer
-        L.tileLayer('https://mapdata-gerrng.github.io/Arma3Map' + mapInfos.tilePattern, { 
+        L.tileLayer('https://hendriktank.github.io/Arma3Map' + mapInfos.tilePattern, { 
             attribution: mapInfos.attribution, 
             tileSize: mapInfos.tileSize
         }).addTo(map);
@@ -47,7 +47,7 @@ function InitMap(mapInfos) {
     });
 }
     </script>
-    <script src="https://mapdata-gerrng.github.io/Arma3Map/maps/tanoa.js">
+    <script src="https://hendriktank.github.io/Arma3Map/maps/tanoa.js">
     </script>
 </body>
 </html>
